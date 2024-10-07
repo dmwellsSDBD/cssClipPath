@@ -19,10 +19,10 @@ img {
     /* clip-path: url("#heartPath"); */
     /* clip-path: circle(); */
     /* clip-path: circle(50px at 0 100px); */
-    /* clip-path: circle(50px at 100px 200px); */
+    clip-path: circle(50px at 100px 200px);
     /* clip-path: circle(50px at center); */
     /* clip-path: ellipse(130px 140px at 10% 20%); */
     /* clip-path: xywh(60px 10px 50% 100% round 15% 0); */
     /* clip-path: path('M 0 200 L 0,75 A 5,5 0,0,1 150,75 L 200 200 z'); */
-    clip-path: url("#myBlob");
+    /* clip-path: url("#myBlob"); */
 }
