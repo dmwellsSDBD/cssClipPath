@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    width: 25%;
+}
+
+.one {
+    clip-path: polygon(0 100%, 0 0, 100% 0, 30% 50%);
+}
