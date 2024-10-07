@@ -8,6 +8,17 @@
 </head>
 <body>
     <h1>CSS Clip-Path Example</h1>
-    <img src="images/davidAndPumplinLord.jpg" alt="David and the Pumpkin Lord" class=".one">
+    <img src="images/davidAndPumplinLord.jpg" alt="David and the Pumpkin Lord" class="one">
+    <img src="images/davidAndPumplinLord.jpg" alt="David and the Pumpkin Lord" class="two">
+
+    <svg>
+        <clipPath id="heartPath" clipPathUnits="objectBoundingBox">
+          <path d="M0.5,1
+            C 0.5,1,0,0.7,0,0.3
+            A 0.25,0.25,1,1,1,0.5,0.3
+            A 0.25,0.25,1,1,1,1,0.3
+            C 1,0.7,0.5,1,0.5,1 Z" />
+        </clipPath>
+      </svg>
 </body>
 </html>
